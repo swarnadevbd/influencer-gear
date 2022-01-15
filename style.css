@@ -205,25 +205,21 @@ footer p{
 }
 
 @media only screen and (min-width: 768px){
-    .collections{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .section-1{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-       
-    }
-    .division-main{
-        width: 80%;
-    }
-    .division-main2{
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        padding-left: 0px;
-    }
-    .division-main2 img{
-        height: 300px;
-        width: 50%;
-    }
+   .section-1{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+   }
+   .collections{
+    grid-template-columns: repeat(2, 1fr);
+}
+.division-main{
+    width: 100%;
+}
+.division-main2{
+    width: 100%;
+}
+.division-main2 img{
+    width: 80%;
+}
+    
 }
